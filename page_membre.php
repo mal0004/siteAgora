@@ -19,12 +19,12 @@
 <img src="https://cdn.discordapp.com/attachments/599371505247453234/603719279820537883/unknown.png">
 
     <?php
-    // On démarre la session (ceci est indispensable dans toutes les pages de notre section membre)
+    // On dÃ©marre la session (ceci est indispensable dans toutes les pages de notre section membre)
     session_start ();
 
-    // On récupère nos variables de session
+    // On rÃ©cupÃ¨re nos variables de session
     if (isset($_SESSION['login']) && isset($_SESSION['pwd'])) {
-    	// On teste pour voir si nos variables ont bien été enregistrées
+    	// On teste pour voir si nos variables ont bien Ã©tÃ© enregistrÃ©es
 
     	echo '<br />';
     	echo 'Bievenue '.$_SESSION['login'].'.';
@@ -36,7 +36,7 @@
 	echo '<input type="submit" value="Connexion">';
     }
     else {
-    	echo '</br> </br> veuillez vous connecter</br> </br> ';
+    	echo '</br> </br> Veuillez vous connecter.</br> </br> ';
     }
     ?>
 
