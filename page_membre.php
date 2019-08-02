@@ -31,12 +31,13 @@
     	echo '<br />';
 	echo '<h3> La peine de mort </h3>';
 	echo '<form action="vote.php" method="post">';
-	echo 'Votre opinion (pour/contre) </br> <input type="text" name="opinion"> <br />';
+	echo '<input type="hidden" name="login" value='.$_SESSION['login'].'>';
+	echo 'Votre opinion (pour/contre) </br> <input type="text" name="vote"> <br />';
+	echo '<input type="submit" value="vote">';
 	echo '</form>';
-	echo '<input type="submit" value="Connexion">';
     }
     else {
-    	echo '</br> </br> Veuillez vous connecter.</br> </br> ';
+    	echo '</br> </br> veuillez vous connecter</br> </br> ';
     }
     ?>
 
