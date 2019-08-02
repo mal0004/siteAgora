@@ -37,7 +37,7 @@
 	echo '</form>';
     }
     else {
-    	echo '</br> </br> veuillez vous connecter</br> </br> ';
+    	echo '</br> </br> Veuillez vous connecter.</br> </br> ';
     }
     ?>
 
